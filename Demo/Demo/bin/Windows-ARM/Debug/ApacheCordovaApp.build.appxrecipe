@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NDEN1281</Machine>
+    <WindowsUser>khanfi</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>debug|arm</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>c75c14d0-adfa-11e8-a7e2-ef57c5b4f175</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\build\windows\debug\arm\win10\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\build\windows\debug\arm\win10\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\img\f7-icon-square.png">
+      <PackagePath>www\img\f7-icon-square.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\img\f7-icon.png">
+      <PackagePath>www\img\f7-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\img\vi-icon.png">
+      <PackagePath>www\img\vi-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\js\app.js">
+      <PackagePath>www\js\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\js\framework7.min.js">
+      <PackagePath>www\js\framework7.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\js\routes.js">
+      <PackagePath>www\js\routes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\css\app.css">
+      <PackagePath>www\css\app.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\css\framework7.min.css">
+      <PackagePath>www\css\framework7.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\fonts\Framework7Icons-Regular.eot">
+      <PackagePath>www\fonts\Framework7Icons-Regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\fonts\MaterialIcons-Regular.eot">
+      <PackagePath>www\fonts\MaterialIcons-Regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\fonts\Framework7Icons-Regular.ttf">
+      <PackagePath>www\fonts\Framework7Icons-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\fonts\MaterialIcons-Regular.ttf">
+      <PackagePath>www\fonts\MaterialIcons-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\fonts\Framework7Icons-Regular.woff">
+      <PackagePath>www\fonts\Framework7Icons-Regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\fonts\MaterialIcons-Regular.woff">
+      <PackagePath>www\fonts\MaterialIcons-Regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\fonts\Framework7Icons-Regular.woff2">
+      <PackagePath>www\fonts\Framework7Icons-Regular.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\fonts\MaterialIcons-Regular.woff2">
+      <PackagePath>www\fonts\MaterialIcons-Regular.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\fonts\MaterialIcons-Regular.svg">
+      <PackagePath>www\fonts\MaterialIcons-Regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\img\beach.jpg">
+      <PackagePath>www\img\beach.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\img\lock.jpg">
+      <PackagePath>www\img\lock.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\img\monkey.jpg">
+      <PackagePath>www\img\monkey.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\img\mountains.jpg">
+      <PackagePath>www\img\mountains.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\404.html">
+      <PackagePath>www\pages\404.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\about.html">
+      <PackagePath>www\pages\about.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\accordion.html">
+      <PackagePath>www\pages\accordion.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\action-sheet.html">
+      <PackagePath>www\pages\action-sheet.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\autocomplete.html">
+      <PackagePath>www\pages\autocomplete.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\badge.html">
+      <PackagePath>www\pages\badge.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\buttons.html">
+      <PackagePath>www\pages\buttons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\calendar-page.html">
+      <PackagePath>www\pages\calendar-page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\calendar.html">
+      <PackagePath>www\pages\calendar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\cards.html">
+      <PackagePath>www\pages\cards.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\checkbox.html">
+      <PackagePath>www\pages\checkbox.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\chips.html">
+      <PackagePath>www\pages\chips.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\color-themes.html">
+      <PackagePath>www\pages\color-themes.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\contacts-list.html">
+      <PackagePath>www\pages\contacts-list.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\content-block.html">
+      <PackagePath>www\pages\content-block.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\data-table.html">
+      <PackagePath>www\pages\data-table.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\dialog.html">
+      <PackagePath>www\pages\dialog.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\elevation.html">
+      <PackagePath>www\pages\elevation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\fab-morph.html">
+      <PackagePath>www\pages\fab-morph.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\fab.html">
+      <PackagePath>www\pages\fab.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\form-storage.html">
+      <PackagePath>www\pages\form-storage.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\gauge.html">
+      <PackagePath>www\pages\gauge.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\grid.html">
+      <PackagePath>www\pages\grid.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\icons.html">
+      <PackagePath>www\pages\icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\infinite-scroll.html">
+      <PackagePath>www\pages\infinite-scroll.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\inputs.html">
+      <PackagePath>www\pages\inputs.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\lazy-load.html">
+      <PackagePath>www\pages\lazy-load.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\list-index.html">
+      <PackagePath>www\pages\list-index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\list.html">
+      <PackagePath>www\pages\list.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\login-screen-page.html">
+      <PackagePath>www\pages\login-screen-page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\login-screen.html">
+      <PackagePath>www\pages\login-screen.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\messages.html">
+      <PackagePath>www\pages\messages.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\navbar-hide-scroll.html">
+      <PackagePath>www\pages\navbar-hide-scroll.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\navbar.html">
+      <PackagePath>www\pages\navbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\notifications.html">
+      <PackagePath>www\pages\notifications.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\page-loader-component.html">
+      <PackagePath>www\pages\page-loader-component.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\page-loader-template7.html">
+      <PackagePath>www\pages\page-loader-template7.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\panel.html">
+      <PackagePath>www\pages\panel.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\photo-browser.html">
+      <PackagePath>www\pages\photo-browser.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\picker.html">
+      <PackagePath>www\pages\picker.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\popover.html">
+      <PackagePath>www\pages\popover.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\popup.html">
+      <PackagePath>www\pages\popup.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\preloader.html">
+      <PackagePath>www\pages\preloader.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\progressbar.html">
+      <PackagePath>www\pages\progressbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\pull-to-refresh.html">
+      <PackagePath>www\pages\pull-to-refresh.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\radio.html">
+      <PackagePath>www\pages\radio.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\range.html">
+      <PackagePath>www\pages\range.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\searchbar-expandable.html">
+      <PackagePath>www\pages\searchbar-expandable.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\searchbar.html">
+      <PackagePath>www\pages\searchbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\sheet-modal.html">
+      <PackagePath>www\pages\sheet-modal.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\smart-select.html">
+      <PackagePath>www\pages\smart-select.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\sortable.html">
+      <PackagePath>www\pages\sortable.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\statusbar.html">
+      <PackagePath>www\pages\statusbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\stepper.html">
+      <PackagePath>www\pages\stepper.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\subnavbar-title.html">
+      <PackagePath>www\pages\subnavbar-title.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\subnavbar.html">
+      <PackagePath>www\pages\subnavbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swipeout.html">
+      <PackagePath>www\pages\swipeout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-3d-coverflow.html">
+      <PackagePath>www\pages\swiper-3d-coverflow.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-3d-cube.html">
+      <PackagePath>www\pages\swiper-3d-cube.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-3d-flip.html">
+      <PackagePath>www\pages\swiper-3d-flip.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-custom-controls.html">
+      <PackagePath>www\pages\swiper-custom-controls.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-fade.html">
+      <PackagePath>www\pages\swiper-fade.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-gallery.html">
+      <PackagePath>www\pages\swiper-gallery.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-horizontal.html">
+      <PackagePath>www\pages\swiper-horizontal.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-lazy.html">
+      <PackagePath>www\pages\swiper-lazy.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-loop.html">
+      <PackagePath>www\pages\swiper-loop.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-multiple.html">
+      <PackagePath>www\pages\swiper-multiple.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-nested.html">
+      <PackagePath>www\pages\swiper-nested.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-pagination-fraction.html">
+      <PackagePath>www\pages\swiper-pagination-fraction.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-pagination-progress.html">
+      <PackagePath>www\pages\swiper-pagination-progress.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-parallax.html">
+      <PackagePath>www\pages\swiper-parallax.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-scrollbar.html">
+      <PackagePath>www\pages\swiper-scrollbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-space-between.html">
+      <PackagePath>www\pages\swiper-space-between.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-vertical.html">
+      <PackagePath>www\pages\swiper-vertical.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper-zoom.html">
+      <PackagePath>www\pages\swiper-zoom.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\swiper.html">
+      <PackagePath>www\pages\swiper.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\tabbar-labels.html">
+      <PackagePath>www\pages\tabbar-labels.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\tabbar-scrollable.html">
+      <PackagePath>www\pages\tabbar-scrollable.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\tabbar.html">
+      <PackagePath>www\pages\tabbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\tabs-animated.html">
+      <PackagePath>www\pages\tabs-animated.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\tabs-routable.html">
+      <PackagePath>www\pages\tabs-routable.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\tabs-static.html">
+      <PackagePath>www\pages\tabs-static.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\tabs-swipeable.html">
+      <PackagePath>www\pages\tabs-swipeable.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\tabs.html">
+      <PackagePath>www\pages\tabs.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\timeline-horizontal-calendar.html">
+      <PackagePath>www\pages\timeline-horizontal-calendar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\timeline-horizontal.html">
+      <PackagePath>www\pages\timeline-horizontal.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\timeline-vertical.html">
+      <PackagePath>www\pages\timeline-vertical.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\timeline.html">
+      <PackagePath>www\pages\timeline.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\toast.html">
+      <PackagePath>www\pages\toast.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\toggle.html">
+      <PackagePath>www\pages\toggle.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\toolbar-hide-scroll.html">
+      <PackagePath>www\pages\toolbar-hide-scroll.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\toolbar-tabbar.html">
+      <PackagePath>www\pages\toolbar-tabbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\tooltip.html">
+      <PackagePath>www\pages\tooltip.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\vi.html">
+      <PackagePath>www\pages\vi.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\virtual-list-vdom.html">
+      <PackagePath>www\pages\virtual-list-vdom.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\pages\virtual-list.html">
+      <PackagePath>www\pages\virtual-list.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\www\js\autocomplete-languages.json">
+      <PackagePath>www\js\autocomplete-languages.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khanfi\Source\repos\ApacheCordovaApp\ApacheCordovaApp\platforms\windows\build\windows\debug\arm\win10\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
